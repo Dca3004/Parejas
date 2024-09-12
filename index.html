@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parejas</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <main>
+        <section class="seccion1">
+            <h1 id="mensaje" >
+                Aprendamos a transitar con Rodarcito
+            </h1>         
+            <table>
+                <tr>
+                    <td><button id="0" onclick="destapar(0)"><img src="./img/default.png" alt="Tarjeta 0"></button></td>
+                    <td><button id="1" onclick="destapar(1)"><img src="./img/default.png" alt="Tarjeta 1"></button></td>
+                    <td><button id="2" onclick="destapar(2)"><img src="./img/default.png" alt="Tarjeta 2"></button></td>
+                    <td><button id="3" onclick="destapar(3)"><img src="./img/default.png" alt="Tarjeta 3"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="4" onclick="destapar(4)"><img src="./img/default.png" alt="Tarjeta 4"></button></td>
+                    <td><button id="5" onclick="destapar(5)"><img src="./img/default.png" alt="Tarjeta 5"></button></td>
+                    <td><button id="6" onclick="destapar(6)"><img src="./img/default.png" alt="Tarjeta 6"></button></td>
+                    <td><button id="7" onclick="destapar(7)"><img src="./img/default.png" alt="Tarjeta 7"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="8" onclick="destapar(8)"><img src="./img/default.png" alt="Tarjeta 8"></button></td>
+                    <td><button id="9" onclick="destapar(9)"><img src="./img/default.png" alt="Tarjeta 9"></button></td>
+                    <td><button id="10" onclick="destapar(10)"><img src="./img/default.png" alt="Tarjeta 10"></button></td>
+                    <td><button id="11" onclick="destapar(11)"><img src="./img/default.png" alt="Tarjeta 11"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="12" onclick="destapar(12)"><img src="./img/default.png" alt="Tarjeta 12"></button></td>
+                    <td><button id="13" onclick="destapar(13)"><img src="./img/default.png" alt="Tarjeta 13"></button></td>
+                    <td><button id="14" onclick="destapar(14)"><img src="./img/default.png" alt="Tarjeta 14"></button></td>
+                    <td><button id="15" onclick="destapar(15)"><img src="./img/default.png" alt="Tarjeta 15"></button></td>
+                </tr>
+            </table>
+        </section>
+        <section class="seccion2">
+            <h2 id="aciertos" class="estadisticas">Aciertos: 0</h2>
+            <h2 id="t-restante" class="estadisticas">Tiempo: 50 segundos</h2>
+            <h2 id="movimientos" class="estadisticas">Movimientos: 0</h2>
+            <img src="./img/rodarcito.png" alt="Rodarcito" class="rodarcito">                           
+        </section>
+    </main>
+    <script src="./funcion.js"></script>
+</body>
+</html>
